@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.quote-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    text-align: center;
+    margin: none;
+}
+
+.quote-author {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+/* .quote-up {
+    margin-bottom: -60px;
+    margin-top: 50px;
+}
+
+.quote-down {
+    margin-top: -30px;
+} */
+
+.btn-new-quote {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 20px 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 35px;
+}

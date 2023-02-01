@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Container from './Components/Container/Container';
+
 
 function App() {
   return (
     <div className="App">
-      Quote Generator
+      <Container />
     </div>
   );
 }
